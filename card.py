@@ -3,5 +3,5 @@ class Card:
         self.alias = alias
         self.ending = ending
 
-    def toString(self):
+    def getData(self):
         return (self.alias, self.ending)
